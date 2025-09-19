@@ -56,7 +56,6 @@ def load_config(config_path):
         a_max = data.get("a_max", a_max)
         b_min = data.get("b_min", b_min)
         b_max = data.get("b_max", b_max)
-    pass
 
 
 def save_config(config_path):
